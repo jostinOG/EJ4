@@ -20,13 +20,12 @@ public class Main {
         //Hint: Numbers less than 0 are negative and numbers greater than 0 are positive.
         //generate a random number from -10 to 10
 
-        int randomNumber = Main.getRandomNumber(-10, 10);
-        int numeroIf = randomNumber;
+        int numeroIf = Main.getRandomNumber(-10, 10);
         String cadena = "";
         if (numeroIf > 0) cadena = "positive";
         if (numeroIf < 0) cadena = "negative";
         if (numeroIf == 0) cadena = "0";
-        System.out.println("The number " + randomNumber + " is " + cadena);
+        System.out.println("The number " + numeroIf + " is " + cadena);
 
 
     }
