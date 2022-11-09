@@ -58,8 +58,8 @@ public class Main {
     }
 
     public void enum4() {
-        int numberFor;
-        for (numberFor = 0; numberFor <= 3; numberFor++) {
+
+        for (int numberFor = 0; numberFor <= 3; numberFor++) {
             System.out.println(numberFor);
         }
 
